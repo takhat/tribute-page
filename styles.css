@@ -1,0 +1,51 @@
+#image {
+    align-items: center;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid grey;
+    background-color: orange;
+}
+
+h1,
+h2 {
+    font-family: Verdana, sans-serif;
+    color: darkgray;
+    margin-top: 0;
+    padding: 7px;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+p {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 16;
+    font-family: Verdana, sans-serif;
+    border: solid 3px orange;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a:hover {
+    color: darkblue;
+}
